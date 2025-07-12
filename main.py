@@ -13,7 +13,7 @@ def main():
     num_words = get_num_words(text)
     print(f"Found {num_words} total words")
     lower_case_count=lower_case(text)
-    sorted_dict=sorted(low_count)
+    sorted_dict=sorted(lower_case_count)
     for char in sorted_dict:
         char_string= char["char"]
         if char_string.isalpha():
